@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/stlye.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Recipe generator</title>
   </head>
@@ -11,7 +12,7 @@
     <header>
       <h1>Don't know what to cook today?</h1>
       <h2>
-        Insert your favorite ingredient and get your new italian recipe 🍝
+        Insert your favorite ingredient and get your BEST italian recipe 🍝
       </h2>
     </header>
 
@@ -24,6 +25,7 @@
             autofocus
             required
             class="prompt"
+            id="user-input"
           />
           <input type="submit" value="Generate recipe" class="button" />
         </form>
