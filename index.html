@@ -6,31 +6,34 @@
     <link rel="stylesheet" href="src/stlye.css" />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <title>Recipe generator</title>
+    <title>Italian Pasta Recipe Generator</title>
   </head>
   <body>
     <header>
       <h1>Don't know what to cook today?</h1>
       <h2>
-        Insert your favorite ingredient and get your BEST italian recipe 🍝
+        Insert your favorite ingredient and get your BEST Italian Pasta recipe
+        🤌
       </h2>
     </header>
 
     <div class="container">
       <main>
-        <form id="generator-form">
-          <input
-            type="text"
-            placeholder="Write one ingredient..."
-            autofocus
-            required
-            class="prompt"
-            id="user-input"
-          />
-          <input type="submit" value="Generate recipe" class="button" />
-        </form>
+        <div class="form-container">
+          <form id="generator-form">
+            <input
+              type="text"
+              placeholder="Enter an ingredient..."
+              required
+              class="prompt"
+              id="user-input"
+            />
+            <input type="submit" value="Generate recipe" class="button" />
+          </form>
+        </div>
+        <div class="hint">i.e.: tomato, garlic, mushroom, etc..</div>
 
-        <div class="recipe" id="recipe"></div>
+        <div class="recipe hidden" id="recipe"></div>
       </main>
     </div>
     <footer>
