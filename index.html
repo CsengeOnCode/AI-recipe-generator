@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/stlye.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Recipe generator</title>
   </head>
   <body>
@@ -16,7 +17,7 @@
 
     <div class="container">
       <main>
-        <form>
+        <form id="generator-form">
           <input
             type="text"
             placeholder="Write one ingredient..."
@@ -27,11 +28,7 @@
           <input type="submit" value="Generate recipe" class="button" />
         </form>
 
-        <div class="poem">
-          Tomato <br />
-          Basil <br />
-          Pasta
-        </div>
+        <div class="recipe" id="recipe"></div>
       </main>
     </div>
     <footer>
