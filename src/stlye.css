@@ -1,0 +1,72 @@
+body {
+  background-image: url("https://images.pexels.com/photos/5710181/pexels-photo-5710181.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h1 {
+  padding-top: 100px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: white;
+  margin: 20px;
+}
+
+.container {
+  background-color: rgba(255, 255, 251, 0.7);
+  margin: 80px auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+form {
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.prompt {
+  padding: 10px;
+  border: 1px solid rgba(223, 223, 223, 0.702);
+  width: 70%;
+  border-radius: 10px;
+  line-height: 20px;
+  font-size: 18px;
+  color: #757779;
+}
+.button {
+  margin-left: 20px;
+  background-color: rgb(121, 143, 62, 0.8);
+  border-radius: 10px;
+  padding: 14px;
+  font-size: 18px;
+  border: none;
+  color: white;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.poem {
+  font-size: 20px;
+  line-height: 1.5;
+  font-style: italic;
+  padding: 40px;
+  margin-bottom: 50px;
+}
+
+footer {
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+a {
+  color: #757779;
+}
